@@ -15,7 +15,7 @@ read DOSETUPTWO
 if [[ $DOSETUPTWO =~ "y" ]] ; then
 
 MNGated stop > /dev/null 2>&1
-wget https://github.com/mngateorg/storage/raw/master/MNGated -O /usr/local/bin/MNGated
+wget https://github.com/mngateorg/MNG/blob/master/storage/MNGated -O /usr/local/bin/MNGated
 chmod +x /usr/local/bin/MNGated
 
 fi
