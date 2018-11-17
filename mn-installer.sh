@@ -8,10 +8,10 @@ sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install build-essential libssl-dev libdb++-dev libboost-all-dev libqrencode-dev autoconf automake libgmp3-dev miniupnpc libminiupnpc-dev
 sudo apt-get install locales
-sudo locale-gen en_US.UTF-8
-sudo export LANG=en_US.UTF-8
-sudo export LC_ALL=en_US.UTF-8
-sudo export LANGUAGE=en_US.UTF-8
+locale-gen en_US.UTF-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
 fi
 
 echo "* Do you want to compile Daemon (please choose no if you did it before)? [y/n]"
